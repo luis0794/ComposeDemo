@@ -24,7 +24,10 @@ You can open the web application by running the `:composeApp:wasmJsBrowserDevelo
 ----
 
 ## Desktop execution (Kotlin/Native)
-> gradlew composeApp:run
+> ./gradlew composeApp:run
 
 ## Web execution (Kotlin Wasm)
-> gradlew wasmJsBrowserRun -t --quiet
+> ./gradlew wasmJsBrowserRun -t --quiet
+
+## Update 
+> ./gradlew kotlinUpgradeYarnLock
